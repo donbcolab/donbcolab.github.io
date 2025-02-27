@@ -166,7 +166,7 @@ const GraphVisualization = ({ graphData, onNodeSelect }) => {
 };
 
 // Main App Component
-const TemporalGraphExplorer = () => {
+const CytoscapeGraphExplorer = () => {
   // State management
   const [currentTime, setCurrentTime] = useState(1698796800000); // Nov 1, 2023
   const [graphData, setGraphData] = useState(null);
@@ -571,4 +571,4 @@ const TemporalGraphExplorer = () => {
   );
 };
 
-export default TemporalGraphExplorer;
+export default CytoscapeGraphExplorer;

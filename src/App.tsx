@@ -19,6 +19,7 @@ const App: React.FC = () => {
         <Route path="/CytoscapeGraphViz1" element={<CytoscapeGraphViz1 />} />
         <Route path="/CytoscapeGraphViz2" element={<CytoscapeGraphViz2 />} />
         <Route path="/CytoscapeGraphViz3" element={<CytoscapeGraphViz3 />} />
+        <Route path="/Placeholder" element={<PlaceholderPage />} />
 
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
